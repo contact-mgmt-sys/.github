@@ -45,12 +45,16 @@ VITE_API_CONTACTS_VIEW="http://127.0.0.1:8000/contacts/:id/"
 
 ## Usage
 ### Backend
-1. Starting the server.
+1. Migrate the databases.
+```
+python manage.py migrate
+```
+2. Start the server.
 ```
 python manage.py runserver
 ```
 ### Frontend
-1. Starting the development server.
+1. Start the development server.
 ```
 npm run dev
 ```
