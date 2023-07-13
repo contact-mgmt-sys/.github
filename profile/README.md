@@ -21,11 +21,11 @@ pip install -r requirements.txt
 ```
 3. Create an `.env` file in the root directory and add the following environment variables.
 ```env
-DATABASE_NAME="contact_mgmt_sys"
-DATABASE_USER="postgres"
-DATABASE_PASSWORD="postgres"
-DATABASE_HOST="127.0.0.1"
-DATABASE_PORT="5432"
+DATABASE_NAME=contact_mgmt_sys
+DATABASE_USER=postgres
+DATABASE_PASSWORD=postgres
+DATABASE_HOST=127.0.0.1
+DATABASE_PORT=5432
 ```
 ### Frontend
 1. Download and extract the repository or clone it if [git is present](#optional).
