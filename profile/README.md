@@ -75,7 +75,7 @@ DATABASE_PORT=5432
 ```
 3. Build the image and run the container.
 ```
-docker compose up -d --build
+docker compose up --build
 ```
 ### Frontend
 1. Modify the `.env` file to the following.
