@@ -38,9 +38,9 @@ npm install
 ```
 3. Create an `.env` file in the root directory and add the following environment variables.
 ```env
-VITE_API_BASE="http://127.0.0.1:8000/"
-VITE_API_CONTACTS_LIST="http://127.0.0.1:8000/contacts/"
-VITE_API_CONTACTS_VIEW="http://127.0.0.1:8000/contacts/:id/"
+VITE_API_BASE=http://127.0.0.1:8000/
+VITE_API_CONTACTS_LIST=http://127.0.0.1:8000/contacts/
+VITE_API_CONTACTS_VIEW=http://127.0.0.1:8000/contacts/:id/
 ```
 
 ## Usage
@@ -67,11 +67,11 @@ docker network create contact-mgmt-sys
 ```
 2. Modify the `.env` file to the following.
 ```env
-DATABASE_NAME="contact_mgmt_sys"
-DATABASE_USER="postgres"
-DATABASE_PASSWORD="postgres"
-DATABASE_HOST="database"
-DATABASE_PORT="5432"
+DATABASE_NAME=contact_mgmt_sys
+DATABASE_USER=postgres
+DATABASE_PASSWORD=postgres
+DATABASE_HOST=database
+DATABASE_PORT=5432
 ```
 3. Build the image and run the container.
 ```
@@ -80,9 +80,9 @@ docker compose up -d --build
 ### Frontend
 1. Modify the `.env` file to the following.
 ```env
-VITE_API_BASE="http://127.0.0.1:8000/"
-VITE_API_CONTACTS_LIST="http://127.0.0.1:8000/contacts/"
-VITE_API_CONTACTS_VIEW="http://127.0.0.1:8000/contacts/:id/"
+VITE_API_BASE=http://127.0.0.1:8000/
+VITE_API_CONTACTS_LIST=http://127.0.0.1:8000/contacts/
+VITE_API_CONTACTS_VIEW=http://127.0.0.1:8000/contacts/:id/
 ```
 2. Build the image.
 ```
