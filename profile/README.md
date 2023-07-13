@@ -61,11 +61,7 @@ npm run dev
 
 ## Docker
 ### Backend
-1. Create a network.
-```
-docker network create contact-mgmt-sys
-```
-2. Modify the `.env` file to the following.
+1. Modify the `.env` file to the following.
 ```env
 DATABASE_NAME=contact_mgmt_sys
 DATABASE_USER=postgres
@@ -73,7 +69,7 @@ DATABASE_PASSWORD=postgres
 DATABASE_HOST=database
 DATABASE_PORT=5432
 ```
-3. Build the image and run the container.
+2. Build the image and run the container.
 ```
 docker compose up --build
 ```
